@@ -107,7 +107,7 @@ div.cards {
   gap: 6px;
   align-items: start;
   padding: 32px;
-  background: #ffffff;
+  background-color: #ffffff;
   box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
   border-radius: 8px;
   position: relative;
