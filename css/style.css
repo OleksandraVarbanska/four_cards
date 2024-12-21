@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+/* poppins-200 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/poppins-v21-latin_latin-ext-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-regular - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v21-latin_latin-ext-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v21-latin_latin-ext-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  max-width: 445px;
+  height: 102px;
+  font-weight: 275;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.25px;
+  color: #4d4f62;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4d4f62;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.09px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.powered {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+}
+.artificial {
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.11px;
+  color: #4d4f62;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.flx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+body {
+  height: 100%;
+}
+section {
+  margin: 80px auto;
+}
+.top {
+  max-width: 540px;
+  height: 168px;
+  gap: 16px;
+}
+
+div.cards {
+  max-width: 1100px;
+  width: 100%;
+  height: 530px;
+  gap: 30px;
+  position: relative;
+}
+.path {
+  max-width: 350px;
+  height: 250px;
+  gap: 6px;
+  align-items: start;
+  padding: 32px;
+  background: #ffffff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.supervisor {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(0, 55%);
+  background-image: url(../images/green-line.svg);
+}
+.team {
+  background-image: url(../images/red-line.svg);
+}
+.calculator {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(0, 50%);
+  background-image: url(../images/blue-line.svg);
+}
+.karma {
+  background-image: url(../images/yellow-line.svg);
+}
+img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-30%, -50%);
+}
+
+
